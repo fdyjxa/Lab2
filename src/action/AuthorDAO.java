@@ -5,7 +5,7 @@ import java.util.List;
 
 import entity.Author;
 
-public class AuthorDAO {
+public class AuthorDAO {//有关author的数据库操作类
 	public List<Author> selectAuthor(String name){
 		Connection con=null;
 		PreparedStatement psmt=null;

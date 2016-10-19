@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import entity.Book;
 
-public class BookDAO {
+public class BookDAO {//有关book的数据库操作类
 	public List<Book> readBookDB(){
 		List<Book> bookList=new ArrayList<Book>();
 		Connection con=null;
